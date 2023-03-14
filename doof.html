@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+<link href="icon.jpeg" rel="icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>DOOF STORES</title>
+    <link rel="stylesheet" href="edit.css">
+  </head>
+  <body>
+    <div class="navbar">
+      <nav>
+        <div class="logo">
+        <h3><i>DOOF<span>STORES</span></i></h3>
+        </div>
+        <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#About us">About us</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#contact">contact</a></li>
+        </ul>
+        <a href="#" class="btn">ORDER NOW!!</a>
+      </nav>
+      <img src="back.jpeg"width="1500"height="500" alt="">
+      <div class="content">
+        <h2>DOOF STORES</h2>
+        <p>Pack your food with <span>Fried stuffings!!!</span></p>
+
+       <div class="newslatter">
+         <form>
+         <input type="email" name="email" id="mail" placeholder="Enter your email id">
+          <input type="name" name="name" placeholder="Enter your name">
+          </form>
+       </div>
+      </div>
+    </div>
+    <!--about section starts-->
+    <section class="about">
+      <div class="main">
+        <img src="nuggets.jpg" alt="">
+        <div class="about-text">
+          <h1 style="color:#00ff00;">ABOUT US</h1>
+          <h5>FOODS  AND  DELEVERY!!</h5>
+          <p>Welcome to our blog,where we'll introduce you to out brand and the mouth-watering
+          world of fried chicken!!<br>Our menu is filled with variety of delicious options,from
+        classic fried chicken to spicy wings,and everything in-between<br>
+      We believe that every customers deserves to have a memorable experience when
+    they dine with us,<br>Whether it's in our cozy menu or through our delivery services. </p>
+    <button type="button" >Let's Talk</button>
+  </div>
+
+</div>
+
+</section>
+    <!--about menu bar -->
+    <section1 class="home">
+      <div class="item">
+        <div class="about-menu">
+          <h4 style="color:#00ff00;" "size=20px;">MENU</h4>
+          <img src="" id="photo"  width="350" height="550">
+          <script type="text/javascript">
+          let image=document.getElementById('photo');
+          let images=['momo.jpg','momos.jpg']
+          setInterval(function(){
+            let random=Math.floor(Math.random() * 2);
+            image.src=images[random];
+          },800);
+          </script>
+        </div>
+      </div>
+    </section1>
+    <!--section contact support-->
+    <section2 class="contact">
+      <div class="id">
+
+        <form>
+          <div class="about-inform">
+          <input type="text"  id="name" required>
+          <label for="name">Your Name</label>
+          </div>
+          <div class="about-inform">
+          <input type="text"  id="number" required>
+          <label for="phone number">Phone number</label>
+          </div>
+          <div class="about-inform">
+          <input type="text"  id="email" required>
+          <label for="email">E-Mail Id</label>
+          </div>
+          <div class="about-inform">
+            <textarea id="message" rows="8" required></textarea>
+          <label for="name">Your Message</label>
+          </div>
+          <button type="submit">submit</button>
+        </form>
+        </div>
+
+
+    </section2>
+  </body>
+</html>
